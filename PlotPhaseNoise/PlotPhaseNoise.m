@@ -30,5 +30,8 @@ ylabel('Phase Noise dBc/Hz');
 
 axis([freq_start, freq_stop, log_mag_start, log_mag_stop]);
 
+fft_in_mag = abs(fft_result);
+fft_in_angle = angle(fft_result);
+
 end
 

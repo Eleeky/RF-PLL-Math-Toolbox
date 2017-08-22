@@ -49,6 +49,10 @@
 *.m51
 *.lnp
 *.htm
+*.uvgui.*
+*.uvopt
+*.A51
+*.__i
 
 # Kernel Module Compile Results
 *.mod*
